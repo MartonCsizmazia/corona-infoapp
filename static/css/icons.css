@@ -1,0 +1,28 @@
+@font-face  {
+  font-family: myFirstFont;
+  src: url(font/Poppins-Light.woff2);
+}
+
+.footer-icons{
+    position: absolute;
+    top: 70%;
+    width:100%
+
+}
+
+.icon-text
+{
+        transition: transform 0.5s;
+        text-align: center;
+        font-size: 1.4vw;
+        font-family: myFirstFont, serif;
+        font-weight: bold;
+}
+
+.icon-text:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.iccon{
+    color: #b0b1b0;
+}
